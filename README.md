@@ -1,2 +1,41 @@
 # poc
 testing 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subdomain Takeover PoC</title>
+    <style>
+        body {
+            background: #0d0d0d;
+            color: #00eaff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            opacity: 0.8;
+        }
+        .box {
+            padding: 20px;
+            border: 2px solid #00eaff;
+            display: inline-block;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Subdomain Takeover Successful</h1>
+        <p>This domain is pointing to an unused Vercel project.</p>
+        <p>PoC by Security Researcher.</p>
+    </div>
+</body>
+</html>
