@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: bb test rule
+    conditions:
+      - base=master
+    actions:
+      comment:
+        message: bb
